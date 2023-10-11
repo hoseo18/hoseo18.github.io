@@ -1,169 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset='utf-8'>
-<style>
-table, th, tr, td {
-	border: solid 1px black;
-	border-collapse: collapse;
-	padding: 8px;}
+    <head>
+        <title>홍길동의 홈페이지</title>
+        <link href="./practice.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./blog_list.html">Blog</a>
+            <a href="./about_me.html">About Me</a>
+        </nav>
 
-
-td, tr { 
-	border: solid 1px black;
-	border-collapse: collapse;
-	width: 80px;
-    height: 80px;
-    padding: 1px;}
-
-li {list-style-type: none; font-size: 17px;}
-
-#top {float:right; margin-top:40px; margin-right : 20px}
-#전공 {background-color: rgb(197, 121, 121);}
-#교양 {background-color: rgb(121, 197, 174);}
-#채플 {background-color: rgb(159, 190, 109);}
-#패논 {background-color: #b0c3cf;}
-#링크 {background-color: yellow; margin:5px 5px 5px 5px;}
-
-header { width: 420px; height:  50px; margin-top:10px; margin-left: 15px;
-		 background-color: rgb(227, 223, 231)}
-
-nav { width: 1000px;}
-
-section { width: 500px; height:  240px; margin-top:10px;
-		  float: left;}
-
-aside { width: 200px; height:  240px; margin-top:500px; margin-left: 29px;
-		float: left;}
-
-footer { width: 995px; height:  130px; margin-top:10px;}
-
-a:link {text-decoration: none; color: greenyellow;}
-a:visited {text-decoration: none; color: black;}
-a:hover { text-decoration: none; color: white;}
-
-
-</style>
-</head>
-
-<body>
-<title>2021년 1학기 고영민 시간표</title>
-
-<header>
-<h1>2021년 1학기 고영민 시간표</h1>
-</header>
-
-
-<nav id='top'>
-	<a href='form_test2.html' id="링크">[회원가입]</a><br><br>
-	<a href='루바토팬션 홈페이지.html' id="링크">[루바토 펜션 안내]</a><br><br>
-	<a href='행사안내.html' id="링크">[행사안내]</a><br><br>
-	<a href='호서야간개장.html' id="링크">[야간 개장 안내]</a><br><br>
-	<a href='세일안내장.html' id="링크">[세일 안내장]</a><br><br>
-	<a href='월간일정표.html' id="링크">[월간 일정표]</a><br><br>
-	<a href='쇼핑몰 판매.html' id="링크">[쇼핑몰 판매]</a><br><br>
-	<a href='ex_photo-academy.html' id="링크">[루바토 사진 학원]</a><br>
-</nav>
-
-<section>
-<table>
-	
-	<tr>
-		<td></td>
-		<td>월</td>
-		<td>화</td>
-		<td>수</td>
-        <td>목</td>
-        <td>금</td>
-    </tr>
-	<tr>
-		<td>1교시<br>9:30~</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td id='전공'>웹<br>프로그래밍</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>2교시<br>10:30~</td>
-		<td rowspan="2" id='전공'>웹<br>프로그래밍</td>
-		<td></td>
-		<td></td>
-		<td rowspan="3" id='전공'>경영정보<br>시스템</td>
-		<td></td>
-	</tr>
-    <tr>
-		<td>3교시<br>11:30~</td>
-		<td></td>
-		<td rowspan="2" id='교양'>대학영어<br>회화2</td>
-		<td></td>
-	</tr>
-    <tr>
-		<td>4교시<br>12:30~</td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-    <tr>
-		<td>5교시<br>13:30~</td>
-		<td></td>
-		<td rowspan="3" id='전공'>경영통계</td>
-		<td></td>
-		<td id='패논'>채플</td>
-		<td></td>
-	</tr>
-    <tr>
-		<td>6교시<br>14:30~</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-    </tr>
-    <tr>
-        <td>7교시<br>15:30~</td>
-        <td rowspan="2" id='교양'>탁구이론과<br>실제</td>
-        <td></td>
-        <td></td>
-        <td></td>
-	</tr>
-    <tr>
-        <td>8교시<br>16:30~</td>
-        <td></td>
-        <td></td>
-        <td id='패논'>자기이해와<br>개발1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>9교시<br>17:30~</td>
-        <td></td>
-        <td rowspan="2" id='교양'>공감과<br>소통</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>10교시<br>18:30~</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <br>생활속의 심리학 (OCU과목)
-</table>
-</section>
-
-<aside>
-	<ul>
-	  <li id='전공'> -전공과목 </li>
-	  <li id='교양'> -교양과목 </li>
-	  <li id='패논'> -나머지 과목 </li>
-  </ul>
-
-  <footer>
-<h3>호서대학교 디지털기술경영전공 20180560 고영민 홈페이지입니다.<br>진심으로 환영합니다.</h2>
-
-</footer>
-
-</form>
-</body>
+        <h1>첫번째 크기 헤드라인</h1>
+        <h2>두번째 크기 헤드라인</h1>
+        <h3>세번째 크기 헤드라인</h1>
+        <h4>네번째 크기 헤드라인</h1>
+        <h5>다섯번째 크기 헤드라인</h1>
+        <p>문단은 p로 쓰세요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
+        <a href="https://www.google.com/">Go to google</a>
+        <hr/>
+        <img src="./images/stay_funky.jpg" width="600px">
+    </body>
 </html>
